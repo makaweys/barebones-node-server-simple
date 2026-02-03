@@ -4,8 +4,8 @@
   "description": "A simple HTTP server using only Node.js core modules",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "nodejs",

@@ -144,7 +144,7 @@ class AppServer {
         JSON.stringify({
           status: "ok",
           timestamp: new Date().toISOString(),
-        })
+        }),
       );
     });
 
@@ -172,7 +172,7 @@ class AppServer {
         JSON.stringify({
           received: req.body,
           timestamp: new Date().toISOString(),
-        })
+        }),
       );
     });
   }
